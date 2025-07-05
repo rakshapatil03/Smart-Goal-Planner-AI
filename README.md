@@ -15,20 +15,25 @@ This is a web-based AI-powered smart planner built using **Flask** and **Google 
 
   ## 📁 Project Structure
   
-SmartGoalPlannerAI/
-│
-├── app.py # Flask backend logic
-├── .env # Your Gemini API key (keep secret)
-├── requirements.txt # Python dependencies
-├── .gitignore # Files/folders to ignore (e.g., .env)
-│
-├── templates/ # HTML files
-│ ├── index.html # Home page with form inputs
-│ └── result.html # AI-generated goal plan output
-│
-├── static/
-│ └── style.css # Styling and layout 
+app.py – Flask backend with Gemini integration
 
+.env – Stores your Gemini API key securely (should not be uploaded)
+
+requirements.txt – List of Python dependencies
+
+.gitignore – Prevents sensitive or unnecessary files (like .env) from being pushed to GitHub
+
+🗂️ Folders:
+
+templates/
+
+index.html – Homepage with task & time input
+
+result.html – Displays the AI-generated plan
+
+static/
+
+style.css – Aesthetic and clean styling for the web pages
 ---
 
 ## ⚙️ Setup Instructions
